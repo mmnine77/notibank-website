@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Learn how to delete your NotiBank account and associated notification backup data.">
+  <title>Delete Account & Data | NotiBank</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#e9f1ff;background:#080e21;font-size:16px;line-height:1.65}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#2b145d 0%,transparent 38%),radial-gradient(ellipse at 0% 30%,#053e65 0%,transparent 40%),#080e21}
+    .wrap{max-width:850px;margin:auto;padding:32px 20px 65px}header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:42px;flex-wrap:wrap}
+    .brand{font-size:1.35rem;font-weight:800;letter-spacing:-.03em;color:white;text-decoration:none}.brand span{color:#44c7ff}
+    nav a{color:#b8c9e7;text-decoration:none;margin-left:16px;font-size:.92rem}nav a:hover,a:hover{color:#7be4ff}
+    .eyebrow{color:#69d9ff;font-weight:700;letter-spacing:.1em;font-size:.78rem;text-transform:uppercase}h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.14;letter-spacing:-.045em;margin:10px 0 18px}h2{font-size:1.3rem;line-height:1.3;margin:0 0 14px}p{margin:0 0 14px;color:#c4d1e7}strong{color:#f4f8ff}
+    .intro{font-size:1.08rem;max-width:700px}.card{background:#101b34e8;border:1px solid #2b3e62;border-radius:18px;padding:25px;margin-top:20px;box-shadow:0 10px 30px #0002}
+    ol,ul{padding-left:24px;color:#c4d1e7;margin:8px 0 12px}li{padding:4px 0}a{color:#6ad7ff;overflow-wrap:anywhere}.btn{display:inline-block;padding:12px 18px;border-radius:12px;background:linear-gradient(110deg,#27bdf4,#8074f7);color:#071027;text-decoration:none;font-weight:800;margin:10px 0}.btn:hover{color:#071027;filter:brightness(1.1)}
+    .note{border-left:3px solid #5bd4ff;padding:10px 14px;background:#0a2840;border-radius:0 9px 9px 0;color:#cbdcf2}.warning{border-left-color:#f5b66d;background:#332416}
+    footer{border-top:1px solid #263452;margin-top:42px;padding-top:22px;color:#9cafca;font-size:.9rem}footer a{margin-right:15px}
+    @media(max-width:560px){.wrap{padding:22px 16px 48px}.card{padding:20px}nav a{margin-left:10px}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <a class="brand" href="./">Noti<span>Bank</span></a>
+    <nav aria-label="Legal pages"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav>
+  </header>
+  <div class="eyebrow">NHL TECH · Privacy &amp; Data Controls</div>
+  <h1>Delete your NotiBank account &amp; data</h1>
+  <p class="intro">NotiBank gives you control over your notification history, encrypted Google Drive backups, and account-linked information. You can request account deletion in the app or contact the developer if you no longer have access to the app.</p>
+
+  <section class="card" aria-labelledby="inapp">
+    <h2 id="inapp">Option 1 — Delete from the NotiBank app</h2>
+    <ol>
+      <li>Open <strong>NotiBank</strong> and sign in with the Google account associated with your NotiBank data.</li>
+      <li>Open <strong>Settings (Vault Settings)</strong>.</li>
+      <li>Scroll to <strong>Danger Zone</strong> and select <strong>Delete NotiBank Account</strong>.</li>
+      <li>Read the deletion details, verify with your <strong>Recovery Password</strong> when requested, and confirm the deletion.</li>
+    </ol>
+    <p class="note">Deleting the NotiBank account is different from merely disconnecting your Google account or uninstalling the app.</p>
+  </section>
+
+  <section class="card" aria-labelledby="webrequest">
+    <h2 id="webrequest">Option 2 — Request deletion without the app</h2>
+    <p>If you cannot access NotiBank, email the developer to request deletion of your NotiBank account and associated data. You can use the email button below after the developer configures the support address.</p>
+    <!-- IMPORTANT: Replace the placeholder address before publishing. -->
+    <a class="btn" href="mailto:REPLACE_WITH_SUPPORT_EMAIL@example.com?subject=NotiBank%20Account%20Deletion%20Request&amp;body=Hello%20NHL%20TECH%2C%0A%0AI%20request%20deletion%20of%20my%20NotiBank%20account%20and%20associated%20data.%0A%0AGoogle%20account%20email%20used%20for%20NotiBank%3A%20%0A%0AThank%20you.">Email deletion request</a>
+    <p><strong>Support email:</strong> <a href="mailto:REPLACE_WITH_SUPPORT_EMAIL@example.com">REPLACE_WITH_SUPPORT_EMAIL@example.com</a></p>
+    <p>Include the Google account email used with NotiBank and state that you are requesting <strong>account and associated data deletion</strong>. We may ask you to verify account ownership before proceeding. Do not email your Recovery Password, Emergency Recovery Key, or notification contents.</p>
+    <p class="note warning"><strong>Developer setup required:</strong> This email address is a placeholder. The developer must replace it with a real, monitored support address and establish a process for responding to and completing deletion requests before publishing this page.</p>
+  </section>
+
+  <section class="card" aria-labelledby="deleted">
+    <h2 id="deleted">What data is deleted?</h2>
+    <p>When the in-app account deletion completes successfully, the app is designed to remove the following NotiBank-associated data, as applicable:</p>
+    <ul>
+      <li>NotiBank cloud notification backup archives associated with the Google account.</li>
+      <li>NotiBank encryption-key metadata and account recovery information managed by the app.</li>
+      <li>Account-linked device and synchronization records managed by NotiBank.</li>
+      <li>NotiBank account-linked local notification data on the device where deletion is performed.</li>
+    </ul>
+    <p>Data stored locally on other devices may require separate removal on those devices. Deletion of a NotiBank account does <strong>not</strong> delete your Google account or unrelated files in Google Drive.</p>
+  </section>
+
+  <section class="card" aria-labelledby="retention">
+    <h2 id="retention">Data retention and separate deletion options</h2>
+    <p>NotiBank also offers options to delete selected local records or cloud backups without deleting the entire account. Certain records placed in <strong>Cloud Trash</strong> may be retained for up to <strong>30 days</strong> before permanent removal, depending on the deletion action chosen.</p>
+    <p><strong>Full account deletion</strong> is intended to remove account-associated NotiBank cloud data and keys rather than simply moving them into ordinary temporary trash. Any legally required retention, if applicable, will be explained when processing an external deletion request.</p>
+    <p class="note">Before publishing, the developer should verify these descriptions against the released app, especially cross-device local data and whether full account deletion bypasses Cloud Trash.</p>
+  </section>
+
+  <section class="card" aria-labelledby="help">
+    <h2 id="help">Questions or trouble deleting data?</h2>
+    <p>Contact NHL TECH at the support email above. For more information about how NotiBank handles data, read our <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year">2026</span> NHL TECH · NotiBank</p>
+    <a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a>
+  </footer>
+</main>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
